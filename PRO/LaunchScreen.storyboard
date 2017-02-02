@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginbackground1 2.png" translatesAutoresizingMaskIntoConstraints="NO" id="s9I-MN-QM2">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blood-donation-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="hOw-0x-GoL">
+                                <rect key="frame" x="89" y="51" width="590" height="660"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo32.png" translatesAutoresizingMaskIntoConstraints="NO" id="BMF-pe-GMp">
+                                <rect key="frame" x="89" y="679" width="590" height="218"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hOw-0x-GoL" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="69" id="1q1-Jf-ppN"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="BMF-pe-GMp" secondAttribute="bottom" constant="127" id="AOE-WL-cwD"/>
+                            <constraint firstItem="s9I-MN-QM2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="JN7-TP-jpT"/>
+                            <constraint firstItem="hOw-0x-GoL" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="31" id="S97-Nh-FUu"/>
+                            <constraint firstItem="hOw-0x-GoL" firstAttribute="trailing" secondItem="BMF-pe-GMp" secondAttribute="trailing" id="Xga-GX-RqV"/>
+                            <constraint firstAttribute="trailing" secondItem="s9I-MN-QM2" secondAttribute="trailing" id="gnz-dX-8dS"/>
+                            <constraint firstItem="s9I-MN-QM2" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="joA-ik-0QH"/>
+                            <constraint firstItem="BMF-pe-GMp" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="659" id="mQU-W7-gQN"/>
+                            <constraint firstItem="hOw-0x-GoL" firstAttribute="leading" secondItem="BMF-pe-GMp" secondAttribute="leading" id="nac-Dm-5dZ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="hOw-0x-GoL" secondAttribute="bottom" constant="313" id="qB1-qC-2sL"/>
+                            <constraint firstItem="s9I-MN-QM2" firstAttribute="centerX" secondItem="BMF-pe-GMp" secondAttribute="centerX" id="rqa-Gl-3Xm"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="509" y="347"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blood-donation-logo.png" width="626" height="626"/>
+        <image name="loginbackground1 2.png" width="768" height="1003"/>
+        <image name="logo32.png" width="200" height="57"/>
+    </resources>
+</document>
